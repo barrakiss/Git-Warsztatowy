@@ -354,12 +354,12 @@ a {
 
 .small-circle {                                 /* NOTE: KOLA */
   position: absolute;
-  width: 60px;
+  width: 62px;
   height: 60px;
   border: 2px solid rgb(148, 148, 148);
   border-radius: 50%;
   background-color: rgb(245, 245, 245);
-  margin: -40px 130px;
+  margin: -43px 130px;
 }
 .middle-small-circle {                                 /* NOTE: KOLA */
   border: 2px solid rgb(36, 186, 159);
@@ -438,9 +438,6 @@ a {
   font-size: 16px;
   color: rgb(148, 148, 148);
   font-weight: 700;
-}
-.middle-center-circle p:first-child, .middle-center-circle p:nth-child(2), .middle-center-circle p:last-child  {
-  color: rgb(36, 186, 159);
 }
 
 .special p:first-child {                  /* NOTE: SPECJALNIE DLA 211PLN -.- */
