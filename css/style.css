@@ -24,14 +24,12 @@ header {
 .wrapper-top {
     width: 1160px;
     height: 40px;
-    border: 1px solid red;
-    /* NOTE: do usunięcia */
     margin: 0 auto;
 }
 
 .box-logo {
     float: left;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     margin: 7px;
     font-weight: 400;
@@ -82,7 +80,7 @@ header {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .nav-list:hover>.nav-list2 {
@@ -107,7 +105,6 @@ a {
     height: 100%;
     width: 1160px;
     margin: 0 auto;
-    border: 1px solid red;      /* NOTE: do usunięcia */
 }
 
 .left-click {
@@ -204,15 +201,13 @@ a {
 .section2 {
     width: 100%;
     height: 350px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .div-images {
     width: 1160px;
     height: 100%;
     margin: 0 auto;
-    border: 1px solid red;
-    /* NOTE: do usunięcia */
 }
 
 .chair-clair, .margarita, .lorem {
@@ -233,7 +228,7 @@ a {
     transform: scale(1.5,1.5);
 }
 .lorem:hover {
-    background-color: white; /* NOTE: NA RGB */
+    background-color: rgb(255, 255, 255);
   }
 
 .note {
@@ -307,13 +302,12 @@ a {
 .section3 {
     width: 100%;
     height: 700px;
-    background-color: rgb(245, 245, 245); /* NOTE: POPRAWIC */
+    background-color: rgb(241, 241, 241);
 }
 
 .cennik {
     width: 1160px;
     height: 100%;
-    border: 1px solid red;
     margin: 0 auto;
 }
 
@@ -332,7 +326,7 @@ a {
 
 .item-cennik p {
   font-size: 25px;
-  color: rgb(148, 148, 148); /* NOTE: poprawic */
+  color: rgb(91, 91, 91); /* NOTE: poprawic */
   font-weight: 600;
   padding: 45px 58px;
 }
@@ -340,8 +334,8 @@ a {
 .rectangle {
   height: 450px;
   width: 28%;
-  background-color: rgb(245, 245, 245);
-  border: 2px solid rgb(148, 148, 148);
+  background-color: rgb(249, 249, 249);
+  border: 2px solid rgb(214, 214, 214);
   float: left;
   margin: 30px -30px 0px 60px;
   position: relative;
@@ -356,7 +350,7 @@ a {
   position: absolute;
   width: 62px;
   height: 60px;
-  border: 2px solid rgb(148, 148, 148);
+  border: 2px solid rgb(194, 194, 194);
   border-radius: 50%;
   background-color: rgb(245, 245, 245);
   margin: -43px 130px;
@@ -372,7 +366,7 @@ a {
   height: 30px;
   border: 0px solid rgb(0, 0, 0);
   border-radius: 50%;
-  background-color: rgb(148, 148, 148);
+  background-color: rgb(194, 194, 194);
   top: 13px;
   right: 14px;
 }
@@ -385,8 +379,9 @@ a {
   margin: -5% 31%;
   height: 120px;
   width: 120px;
-  border: 2px solid rgb(148, 148, 148);
+  border: 2px solid rgb(194, 194, 194);
   border-radius: 50%;
+  background-color: rgb(255, 255, 255)
 }
 .middle-center-circle {
   border: 2px solid rgb(245, 245, 245);
@@ -420,31 +415,42 @@ a {
   position: absolute;
   font-size: 45px;
   font-weight: 700;
-  color: rgb(148, 148, 148);
+  color: rgb(194, 194, 194);
   margin: 21% 25%;
+}
+.middle-center-circle p:first-child {
+  color: rgb(36, 186, 159);
 }
 
 .center-circle p:nth-child(2) {
   position: absolute;
   margin: 20% 70%;
   font-size: 18px;
-  color: rgb(148, 148, 148);
+  color: rgb(194, 194, 194);
   font-weight: 700;
+}
+
+.middle-center-circle p:nth-child(2) {
+  color: rgb(36, 186, 159);
 }
 
 .center-circle p:last-child {
   position: absolute;
   margin: 67% 18%;
   font-size: 16px;
-  color: rgb(148, 148, 148);
+  color: rgb(194, 194, 194);
   font-weight: 700;
+}
+
+.middle-center-circle p:last-child {
+  color: rgb(36, 186, 159);
 }
 
 .special p:first-child {                  /* NOTE: SPECJALNIE DLA 211PLN -.- */
   position: absolute;
   font-size: 45px;
   font-weight: 700;
-  color: rgb(148, 148, 148);
+  color: rgb(194, 194, 194);
   margin: 21% 10%;
 }
 .first, .second, .third {
@@ -463,32 +469,39 @@ a {
 .first li:first-child {
   height: 35px;
   border: 0 solid black;
-  background-color: rgb(190, 190, 190);   /* NOTE: POPRAWIC KOLORY */
+  background-color: rgb(228, 228, 228);
+  color: rgb(113, 113, 113);
 }
 .first li:last-child {
   height: 35px;
   border: 0 solid black;
-  background-color: rgb(240, 240, 240);   /* NOTE: POPRAWIC KOLORY */
+  background-color: rgb(241, 241, 241);
+  color: rgb(117, 117, 117);
 }
 .second li:nth-child(2n+2) {
   height: 35px;
   border: 0 solid black;
-  background-color: rgb(190, 190, 190);   /* NOTE: POPRAWIC KOLORY */
+  background-color: rgb(241, 241, 241);
+  color: rgb(113, 113, 113);
 }
 .second li:nth-child(2n+1) {
   height: 35px;
   border: 0 solid black;
-  background-color: rgb(240, 240, 240);   /* NOTE: POPRAWIC KOLORY */
+  background-color: rgb(255, 255, 255);
+  color: rgb(117, 117, 117);
 }
 .third li:nth-child(2n+1) {
   height: 35px;
   border: 0 solid black;
-  background-color: rgb(190, 190, 190);   /* NOTE: POPRAWIC KOLORY */
+  background-color: rgb(228, 228, 228);
+  color: rgb(113, 113, 113);
+
 }
 .third li:nth-child(2n+2) {
   height: 35px;
   border: 0 solid black;
-  background-color: rgb(240, 240, 240);   /* NOTE: POPRAWIC KOLORY */
+  background-color: rgb(241, 241, 241);
+  color: rgb(117, 117, 117);
 }
 .button1, .button3 {
   position: absolute;
@@ -512,4 +525,137 @@ a {
   color: rgb(36, 186, 159);
   border: none;
   font-weight: 500;
+}
+/* NOTE: FORMULARZ */
+
+.section4 {
+  width: 100%;
+  height: 590px;
+  background-color: rgb(255, 255, 255);
+}
+.kontakt {
+  width: 1160px;
+  height: 100%;
+  margin: 0 auto;
+}
+.item-kontakt {
+  width: 100%;
+  height: 15%;
+}
+.item-kontakt p {
+  font-size: 25px;
+  color: rgb(91, 91, 91);
+  font-weight: 600;
+  padding: 25px 55px;
+}
+.last-hanger {
+  margin: -18px 55px;
+}
+
+.user {
+  width: 65%;
+  height: 85%;
+  float: left;
+
+}
+.red-chair {
+  width: 35%;
+  height: 85%;
+  float: left;
+}
+.red-chair-item {
+  width: 280px;
+  height: 250px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/red_chair.png");
+  margin: 2% 15%;
+}
+input, textarea {
+  display: block;
+  width: 81%;
+  height: 55px;
+  padding: 5px;
+  margin: 43px 53px;
+  border: 1px solid rgb(164, 225, 209);
+  font-size: 20px;
+}
+textarea {
+height: 10%;
+}
+.btn-submit {
+    background-color: rgb(36, 186, 159);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 11% 10%;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.btn-submit:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(36, 186, 159);
+}
+
+.checkbox { /* NOTE: CHECKBOX */
+  margin: 10px 40px;
+  border: 1px solid rgb(36, 186, 159);
+  width: 13%;
+  height: 50px;
+  padding: 4px 0px;
+  float: left;
+}
+
+.checkbox p {
+  color: rgb(200, 200, 200);
+  margin: -85% 70px;
+  width: 280px;
+  height: 50px;
+  font-size: 18px;
+}
+.footer-down {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+.footer-div {
+  height: 100%;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+#copyright-div {
+  width: 50%;
+  height: 16px;
+  margin: 20px 55px;
+  float: left;
+  color: rgb(154, 154, 154);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.footer-last-div {
+  float: left;
+  width: 330px;
+  margin: 0% 790px;
+  position: absolute;
+}
+
+.footer-last-div ul li{
+  list-style: none;
+  display: inline-block;
+  float: left;
+}
+
+.footer-last-div p {
+  float: right;
+  font-size: 22px;
+  padding: 10px 0;
+  color: rgb(154, 154, 154);
+}
+.footer-last-div span:first-child {
+  font-weight: 700;
+  color: rgb(154, 154, 154);
 }
