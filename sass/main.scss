@@ -98,8 +98,8 @@ a {
 .bigdiv {
     height: 100%;
     width: 1035px; //1160
-    margin-left: 240px;
-    //margin: 0 auto;
+    //margin-left: 240px;
+    margin: 0 auto;
 }
 
 .left-click {
@@ -113,20 +113,35 @@ a {
 .left-click>p {
     padding: 200px 0px;
     color: rgb(36, 186, 159);
+    cursor: pointer;
 }
-.left-click>p:hover {
+/*.left-click>p:hover {
     padding: 200px 8px;
     transform: scale3d(2, 2, 2);
-}
+  } */
 
-.black-chair {
-    background-image: url("../images/black_chair.png");
+.black-chair, .orange_chair, .bloody_chair {
     width: 425px; //460
     height: 100%;
     background-repeat: no-repeat;
     background-size: 125%;
     background-position: 50% 85%;
     float: left;
+}
+
+.black-chair {
+  background-image: url("../images/black_chair.png");
+  display: none;
+}
+
+.orange_chair {
+  display: none;
+  background-image: url("../images/orange.png");
+}
+
+.bloody_chair {
+  background-image: url("../images/red.png");
+  display: none;
 }
 
 .txt-black-chair {
@@ -183,11 +198,12 @@ a {
 .right-click>p {
     padding: 200px 5px;
     color: rgb(36, 186, 159);
+    cursor: pointer;
 }
-.right-click>p:hover {
+/*.right-click>p:hover {
     padding: 200px 8px;
     transform: scale3d(2, 2, 2);
-}
+} */
 
 
 /* NOTE: THE END OF SECTION ONE */
