@@ -22,7 +22,7 @@ header {
 /* NOTE: header */
 
 .wrapper-top {
-    width: 1160px;
+    width: 1045px;
     height: 40px;
     margin: 0 auto;
 }
@@ -83,12 +83,6 @@ a {
     color: rgb(255, 255, 255);
 }
 
-.nav-list:hover>.nav-list2 {
-    display: block;
-}
-
-.nav-list:hover>.spark {}
-
 .row {
     clear: both;
     display: block;
@@ -103,19 +97,21 @@ a {
 
 .bigdiv {
     height: 100%;
-    width: 1160px;
-    margin: 0 auto;
+    width: 1035px; //1160
+    margin-left: 240px;
+    //margin: 0 auto;
 }
 
 .left-click {
     height: 100%;
-    width: 60px;
+    width: 50px; //60
     font-size: 90px;
     float: left;
+
 }
 
 .left-click>p {
-    padding: 200px 8px;
+    padding: 200px 0px;
     color: rgb(36, 186, 159);
 }
 .left-click>p:hover {
@@ -125,7 +121,7 @@ a {
 
 .black-chair {
     background-image: url("../images/black_chair.png");
-    width: 460px;
+    width: 425px; //460
     height: 100%;
     background-repeat: no-repeat;
     background-size: 125%;
@@ -134,20 +130,20 @@ a {
 }
 
 .txt-black-chair {
-    width: 578px;
+    width: 500px; //578
     height: 100%;
     float: left;
 }
 
 .txt {
     width: 100%;
-    height: 180px;
+    height: 220px;
 }
 
 .txt p:first-child {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 500;
-    padding: 23% 14%;
+    padding: 32% 14%;
 }
 
 .txt-black-chair span:first-child, span:last-child {
@@ -162,12 +158,13 @@ a {
 }
 
 .button {
+    width: 300px;
     background-color: rgb(36, 186, 159);
     border-radius: 5px;
     border: none;
     color: white;
     padding: 15px 55px 10px 55px;
-    margin: 0 27%;
+    margin: 0 22%;
     display: inline-block;
     font-size: 18px;
 }
@@ -178,13 +175,13 @@ a {
 
 .right-click {
     height: 100%;
-    width: 60px;
+    width: 50px;//60
     font-size: 90px;
     float: right;
 }
 
 .right-click>p {
-    padding: 200px 8px;
+    padding: 200px 5px;
     color: rgb(36, 186, 159);
 }
 .right-click>p:hover {
@@ -872,7 +869,7 @@ height: 10%;
   display:block;
   position: absolute;
   right: 14px;
-  top: 20px;
+  top: 12px;
   cursor: pointer;
 }
 
@@ -898,4 +895,11 @@ height: 10%;
 
 .title {
   height: 30px;
+}
+.show {
+   display: block;
+ }
+
+.hide {
+  display: none;
 }
